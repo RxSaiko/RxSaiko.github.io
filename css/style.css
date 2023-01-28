@@ -15,7 +15,6 @@ html body{
 .row{
     max-width: 1140px;
     margin: 0 auto;
-    border: 2px black solid;
 }
 header{
     background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)), url(img/header-img.jpg);
@@ -87,4 +86,12 @@ margin-top:  2%; ;
 .main-nav li a:active{
     border-bottom: #fb183e solid 2px;
     padding-bottom: 10px;
+    transition: border-bottom .3s;
+}
+.about-title{
+    color: black;
+}
+.about-img{
+    height: 250px;
+    border-radius: 30px;
 }
