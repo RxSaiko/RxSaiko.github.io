@@ -64,7 +64,21 @@ h2{
     border-color: #731727;
 }
 .logo{
-    height: 80px;
+    height: 70px;
+    width: auto;
     top: 0%;
-    left: 0px;
+    float: left;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.main-nav{
+list-style: none;
+float: right;
+margin-top:  4%; ;
+}
+.main-nav li a{
+    color: white;
 }
