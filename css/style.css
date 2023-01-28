@@ -72,13 +72,19 @@ h2{
 .main-nav li{
     display: inline-block;
     margin-right: 30px;
-
+    
 }
 .main-nav{
 list-style: none;
 float: right;
-margin-top:  4%; ;
+margin-top:  2%; ;
 }
-.main-nav li a{
+.main-nav li a:link,
+.main-nav li a:visited{
     color: white;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: #fb183e solid 2px;
+    padding-bottom: 10px;
 }
