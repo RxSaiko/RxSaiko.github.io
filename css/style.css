@@ -23,6 +23,7 @@ header{
     background-position: center;
     position: relative;
     text-align: center;
+    margin-bottom: 10%;
 }
 h1{
     color: white;
@@ -90,8 +91,29 @@ margin-top:  2%; ;
 }
 .about-title{
     color: black;
+    font-size: 250%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
 }
 .about-img{
-    height: 250px;
+    height: 300px;
     border-radius: 30px;
+    margin-left: 20%;
+}
+.about-text{
+    margin: 30px;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+color: #fb183e;
+margin: 30px;
+
+}
+.btn-ghost:active,
+.btn-ghost:hover{
+color: white;
+background-color: #fb183e;
+
+
 }
