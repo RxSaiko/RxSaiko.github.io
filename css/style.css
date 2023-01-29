@@ -43,12 +43,9 @@ h2{
 }
 .btn:link,
 .btn:visited{
- padding: 10px 30px;
- border-radius: 200px;
- border: #fb183e solid 1px
- ;
-
-
+    padding: 10px 30px;
+    border-radius: 200px;
+    border: #fb183e solid 2px;
 }
 .btn-full:link,
 .btn-full:visited{
@@ -92,28 +89,34 @@ margin-top:  2%; ;
 .about-title{
     color: black;
     font-size: 250%;
-    margin-left: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    font-weight: 500;
 
 }
 .about-img{
     height: 300px;
     border-radius: 30px;
-    margin-left: 20%;
+    margin-left: 28%;
 }
 .about-text{
-    margin: 30px;
+    margin-bottom: 50px;
+
 }
 .btn-ghost:link,
 .btn-ghost:visited{
 color: #fb183e;
-margin: 30px;
 
 }
 .btn-ghost:active,
 .btn-ghost:hover{
 color: white;
 background-color: #fb183e;
-
+}
+.about:first-child{
+    text-align: right;
+}
+.about:last-child{
+    text-align: left;
+    padding: 0% 8%;
 
 }
