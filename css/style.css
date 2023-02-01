@@ -52,19 +52,28 @@ h2{
 .btn-full:visited{
     background-color: #fb183e;
     color: white;
-        
 }
+
+
 .header-box-text{
     margin-bottom: 80px;
 }
 .btn-full:hover,.btn-full:active{
     background-color: #731727;
     border-color: #731727;
+}
+.btn-div{
+    margin-top: 100px;
+    padding: 0%;
+
+}
+.btn-div:hover{
     transform: scale(0.9,0.9);
-        transition: 0.4s;
+    transition: 0.4s;
 
 }
 .logo{
+
     height: 70px;
     width: auto;
     top: 0%;
@@ -124,7 +133,10 @@ background-color: #fb183e;
     padding: 0% 8%;
 
 }
-.hobbies-img{
-    width: 200px;
-    box-sizing: ;
+.hobbies-pic{
+    width: 24vw;
+    box-sizing: border-box;
+}
+.hobbies-pics{
+    display: inline-block;
 }
