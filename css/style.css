@@ -28,7 +28,7 @@ header{
 }
 h1{
     color: white;
-    font-size: 500%;
+    font-size: 7vw;
     font-weight: 400;
 }
 h2{
@@ -109,8 +109,7 @@ margin-top:  2%; ;
 .about-img{
     height: 300px;
     border-radius: 30px;
-    margin-left: 20%;
-}
+    float: right;}
 .about-text{
     margin-bottom: 50px;
 
@@ -135,6 +134,7 @@ background-color: #fb183e;
 }
 .hobbies{
     margin-top: 130px;
+    margin-bottom: 120px;;
     padding-top: 20px;
     background-color: #f4f4f4;
 }
