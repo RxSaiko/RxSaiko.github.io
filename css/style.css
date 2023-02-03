@@ -1,177 +1,210 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     color: black;
 }
-a{
+
+a {
     text-decoration: none;
 }
-html body{
+
+html body {
     text-rendering: optimizeLegibility;
     font-size: 16px;
-    font-family: 'work sans','Arial';
+    font-family: 'work sans', 'Arial';
 }
-.row{
+
+.row {
     max-width: 1140px;
     margin: 0 auto;
 }
-header{
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)), url(img/header-img.jpg);
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url(img/header-img.jpg);
     height: 100vh;
     width: 100vw;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     position: relative;
     text-align: center;
     margin-bottom: 10%;
 }
-h1{
+
+h1 {
     color: white;
     font-size: 500%;
     font-weight: 400;
 }
-h2{
+
+h2 {
     font-size: 200%;
     color: white;
     font-weight: 300;
 }
-.header-box{
-    position:absolute;
+
+.header-box {
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
 .btn:link,
-.btn:visited{
+.btn:visited {
     padding: 10px 30px;
     border-radius: 200px;
     border: #fb183e solid 2px;
 }
+
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited {
     background-color: #fb183e;
     color: white;
 }
 
 
-.header-box-text{
+.header-box-text {
     margin-bottom: 80px;
 }
-.btn-full:hover,.btn-full:active{
+
+.btn-full:hover,
+.btn-full:active {
     background-color: #731727;
     border-color: #731727;
 }
-.btn-div{
+
+.btn-div {
     margin-top: 100px;
     padding: 0%;
 
 }
-.btn-div:hover{
-    transform: scale(0.9,0.9);
+
+.btn-div:hover {
+    transform: scale(0.9, 0.9);
     transition: 0.4s;
 
 }
-.logo{
+
+.logo {
 
     height: 70px;
     width: auto;
     top: 0%;
     float: left;
 }
-.main-nav li{
+
+.main-nav li {
     display: inline-block;
     margin-right: 30px;
-    
+
 }
-.main-nav{
-list-style: none;
-float: right;
-margin-top:  2%; 
+
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 2%;
 }
+
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
     color: white;
 }
+
 .main-nav li a:hover,
-.main-nav li a:active{
+.main-nav li a:active {
     border-bottom: #fb183e solid 2px;
     padding-bottom: 10px;
     transition: border-bottom .3s;
 }
-.about-title{
+
+.about-title {
     color: black;
     font-size: 250%;
     margin-bottom: 50px;
     font-weight: 500;
 
 }
-.about-img{
+
+.about-img {
     height: 300px;
     border-radius: 30px;
-    float: right;}
-.about-text{
+    float: right;
+}
+
+.about-text {
     margin-bottom: 50px;
 
 }
+
 .btn-ghost:link,
-.btn-ghost:visited{
-color: #fb183e;
+.btn-ghost:visited {
+    color: #fb183e;
 
 }
+
 .btn-ghost:active,
-.btn-ghost:hover{
-color: white;
-background-color: #fb183e;
+.btn-ghost:hover {
+    color: white;
+    background-color: #fb183e;
 }
-.about:first-child{
+
+.about:first-child {
     text-align: right;
 }
-.about:last-child{
+
+.about:last-child {
     text-align: left;
     padding: 0% 8%;
 
 }
-.hobbies{
+
+.hobbies {
     margin-top: 130px;
-    margin-bottom: 120px;;
+    margin-bottom: 120px;
+    ;
     padding-top: 20px;
     width: 100vw;
 
 }
 
-.div-head{
+.div-head {
     color: black;
     font-size: 250%;
     text-align: center;
     padding-bottom: 30px;
 }
-.div-sub-head{
+
+.div-sub-head {
     text-align: center;
-font-size: 150%;
-font-weight: 300;
-color: darkgray;
-margin-bottom: 30px;
+    font-size: 150%;
+    font-weight: 300;
+    color: darkgray;
+    margin-bottom: 30px;
 }
-.div-sub-head:after{
+
+.div-sub-head:after {
     width: 100px;
     height: 2px;
     background-color: #fb183e;
     display: block;
     content: " ";
-    margin-left:45% ;
+    margin-left: 45%;
     margin-top: 3%;
 }
-.hobbiesList{
+
+.hobbiesList {
     width: 100vw;
     display: inline-block;
 
 }
-.hobbiesList li{
+
+.hobbiesList li {
     display: block;
     float: left;
 }
-.hobbies-pics img{
+
+.hobbies-pics img {
     width: 25vw;
     box-sizing: border-box;
     height: 18vw;
@@ -181,59 +214,71 @@ margin-bottom: 30px;
 
 
 }
-.hobbies-pics{
+
+.hobbies-pics {
     background-color: black;
     overflow: hidden;
 
 }
-.hobbies-text{
+
+.hobbies-text {
     color: white;
     text-align: center;
     font-weight: 300;
-    
+
 }
-.hobbies-pics img:hover{
+
+.hobbies-pics img:hover {
     transform: scale(1);
     opacity: 1;
     transition: .6s;
 
 }
-.fa-solid,.fa-mug-hot{
+
+.fa-solid,
+.fa-mug-hot {
     color: #731727;
     font-size: 170%;
 }
-.service-box{
+
+.service-box {
     width: 18vw;
     padding: 30px;
 }
-.service-box p{
+
+.service-box p {
     font-size: 90%;
     margin-bottom: 30px;
 
 }
-.service-box a{
+
+.service-box a {
     font-size: 130%;
     color: #fb183e;
     text-align: center;
 }
-.service-box h4{
+
+.service-box h4 {
     margin-bottom: 30px;
     font-size: 200%;
     font-weight: 500;
 }
-.fa-solid{
+
+.large-ico {
     font-size: 500%;
     color: #1820fb;
     margin-bottom: 30px;
 }
-.services-section{
+
+.services-section {
     text-align: center;
     width: 100vw;
     margin-bottom: 100px;
 }
-.quotes{
+
+.quotes {
     width: 100vw;
-    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)), url(img/quotes.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url(img/quotes.jpg);
     background-size: cover;
     height: 100%;
     padding-top: 50px;
@@ -242,16 +287,18 @@ margin-bottom: 30px;
     background-attachment: fixed;
     background-position: center;
 }
-.quote-author{
+
+.quote-author {
     width: 7vw;
     border-radius: 100%;
     height: 20%;
     vertical-align: middle;
     margin-right: 15px;
 
-    
+
 }
-.quote-text{
+
+.quote-text {
     font-size: 250%;
     text-align: center;
     margin-top: 100px;
@@ -260,39 +307,76 @@ margin-bottom: 30px;
     box-sizing: border-box;
 
 }
-.the-quote blockquote, .the-quote cite{
+
+.the-quote blockquote,
+.the-quote cite {
     color: white;
 
 }
-.the-quote{
+
+.the-quote {
     margin-bottom: 50px;
 }
-blockquote{
+
+blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
     padding-bottom: 12%;
 }
-blockquote:before { 
+
+blockquote:before {
     display: block;
-    color:white;
+    color: white;
     width: 100px;
     font-size: 500%;
-    content:"\201C"; 
-}	
-cite{
-    display: block;
-    
+    content: "\201C";
 }
-.package-header-text{
+
+cite {
+    display: block;
+
+}
+
+.package-header-text {
     color: black;
     font-size: 300%;
     text-align: center;
     margin-top: 100px;
+    padding-top: 80px;
+    margin-bottom: 50px;
 }
-.gray-back{
-    background-color: #efefef;
+
+.gray-back {
+    background-color: #eaeaea;
 }
-.package-box{
+
+.package-box {
+    background-color: white;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+.package-title{
+    color: #444;
+    font-size: 180%;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.package-price{
+    color: #fb183e;
+    font-size: 300%;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.package-price span{
+    font-size: 50%;
+    color: #fb183e;
+    font-weight: 500;
+}
+.package-para{
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+.fa-check{
     
 }
