@@ -400,12 +400,15 @@ cite {
 .package-box div:first-child{
     background-color: #fafafa;
 }
-input{
+input[type=text],input[type=email], textarea{
     width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: #444 solid 1px;
+    background-color: white;
 }
 label{
-    margin: 0 35%;
-}
+margin-bottom: 5px;}
 #newsletter{
-    width: 15px;
+    margin: 7px 5px;
 }
