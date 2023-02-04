@@ -243,7 +243,6 @@ h2 {
 }
 
 .service-box {
-    width: 18vw;
     padding: 30px;
 }
 
@@ -350,6 +349,7 @@ cite {
 
 .gray-back {
     background-color: #eaeaea;
+    width: 100vw;
 }
 
 .package-box {
@@ -399,4 +399,13 @@ cite {
 }
 .package-box div:first-child{
     background-color: #fafafa;
+}
+input{
+    width: 80%;
+}
+label{
+    margin: 0 35%;
+}
+#newsletter{
+    width: 15px;
 }
