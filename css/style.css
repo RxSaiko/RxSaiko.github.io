@@ -52,14 +52,16 @@ h2 {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited ,
+input[type=submit]{
     padding: 10px 30px;
     border-radius: 200px;
     border: #fb183e solid 2px;
+    
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,input[type=submit]{
     background-color: #fb183e;
     color: white;
 }
@@ -70,7 +72,9 @@ h2 {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:active,
+input[type=submit]:hover {
     background-color: #731727;
     border-color: #731727;
 }
@@ -408,7 +412,10 @@ input[type=text],input[type=email], textarea{
     background-color: white;
 }
 label{
-margin-bottom: 5px;}
-#newsletter{
-    margin: 7px 5px;
+margin-bottom: 5px;
+margin-left: 35%;
+color: #444;
+}
+textarea{
+    height: 10vh;
 }
