@@ -34,7 +34,7 @@ header {
 
 h1 {
     color: white;
-    font-size: 500%;
+    font-size: 450%;
     font-weight: 400;
 }
 
@@ -56,13 +56,13 @@ h2 {
 input[type=submit]{
     padding: 10px 30px;
     border-radius: 200px;
-    border: #fb183e solid 2px;
+    border: #0e44f7 solid 2px;
     
 }
 
 .btn-full:link,
 .btn-full:visited,input[type=submit]{
-    background-color: #fb183e;
+    background-color: #0e44f7;
     color: white;
 }
 
@@ -75,8 +75,8 @@ input[type=submit]{
 .btn-full:active,
 input[type=submit]:active,
 input[type=submit]:hover {
-    background-color: #731727;
-    border-color: #731727;
+    background-color: #0a0fa8;
+    border-color: #0a0fa8;
 }
 
 .btn-div {
@@ -93,8 +93,7 @@ input[type=submit]:hover {
 
 .logo {
 
-    height: 70px;
-    width: auto;
+    width: 120px;
     top: 0%;
     float: left;
 }
@@ -118,7 +117,7 @@ input[type=submit]:hover {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: #fb183e solid 2px;
+    border-bottom: #0e44f7 solid 2px;
     padding-bottom: 10px;
     transition: border-bottom .3s;
 }
@@ -144,14 +143,14 @@ input[type=submit]:hover {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    color: #fb183e;
+    color: #0e44f7;
 
 }
 
 .btn-ghost:active,
 .btn-ghost:hover {
     color: white;
-    background-color: #fb183e;
+    background-color: #0e44f7;
 }
 
 .about:first-child {
@@ -164,7 +163,7 @@ input[type=submit]:hover {
 
 }
 
-.hobbies {
+.activity {
     margin-top: 130px;
     margin-bottom: 120px;
     ;
@@ -191,25 +190,25 @@ input[type=submit]:hover {
 .div-sub-head:after {
     width: 100px;
     height: 2px;
-    background-color: #fb183e;
+    background-color: #0e44f7;
     display: block;
     content: " ";
     margin-left: 45%;
     margin-top: 3%;
 }
 
-.hobbiesList {
+.activityList {
     width: 100vw;
     display: inline-block;
 
 }
 
-.hobbiesList li {
+.activityList li {
     display: block;
     float: left;
 }
 
-.hobbies-pics img {
+.activity-pics img {
     width: 25vw;
     box-sizing: border-box;
     height: 18vw;
@@ -220,20 +219,20 @@ input[type=submit]:hover {
 
 }
 
-.hobbies-pics {
+.activity-pics {
     background-color: black;
     overflow: hidden;
 
 }
 
-.hobbies-text {
+.activity-text {
     color: white;
     text-align: center;
     font-weight: 300;
 
 }
 
-.hobbies-pics img:hover {
+.activity-pics img:hover {
     transform: scale(1);
     opacity: 1;
     transition: .6s;
@@ -241,8 +240,8 @@ input[type=submit]:hover {
 }
 
 .fa-solid,
-.fa-mug-hot {
-    color: #731727;
+.fa-code {
+    color: #0a0fa8;
     font-size: 170%;
 }
 
@@ -258,7 +257,7 @@ input[type=submit]:hover {
 
 .service-box a {
     font-size: 130%;
-    color: #fb183e;
+    color: #0e44f7;
     text-align: center;
 }
 
@@ -367,14 +366,14 @@ cite {
     margin-bottom: 50px;
 }
 .package-price{
-    color: #fb183e;
+    color: #0e44f7;
     font-size: 300%;
     font-weight: 300;
     margin-bottom: 10px;
 }
 .package-price span{
     font-size: 50%;
-    color: #fb183e;
+    color: #0e44f7;
     font-weight: 500;
 }
 .package-para{
@@ -382,7 +381,7 @@ cite {
     margin-bottom: 10px;
 }
 .fa-check{
-    color: #fb183e;
+    color: #0e44f7;
     font-size: 130%;
     margin-right: 10px;
     width: 30px;
