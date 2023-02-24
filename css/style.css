@@ -418,4 +418,12 @@ color: #444;
 }
 textarea{
     height: 10vh;
+    resize: none;
+}
+footer{
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
 }
