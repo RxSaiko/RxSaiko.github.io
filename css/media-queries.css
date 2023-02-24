@@ -1,6 +1,6 @@
 @media only screen and (max-width:1280px){
 h1{
-    color: red;
+    color: black;
 }
 }
 @media only screen and (max-width:1023px){
@@ -9,13 +9,21 @@ h1{
     }
 }
 @media only screen and (max-width:767px){
-    h1{
-        color: red;
+    .main-btn:link,
+    .main-btn:visited {
+        font-size: 150%;
+        
+    }
+    .span_1_of_4{
+        width: 90%;
+        display: block;
     }
 }
 
 @media only screen and (max-width:480px){
-    h1{
-        color: red;
+    .btn:link,
+    .btn:visited {
+        font-size: 150%;
+        
     }
 }

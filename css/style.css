@@ -166,7 +166,6 @@ input[type=submit]:hover {
 .activity {
     margin-top: 130px;
     margin-bottom: 120px;
-    ;
     padding-top: 20px;
     width: 100vw;
 
@@ -195,6 +194,7 @@ input[type=submit]:hover {
     content: " ";
     margin-left: 45%;
     margin-top: 3%;
+
 }
 
 .activityList {
@@ -206,17 +206,16 @@ input[type=submit]:hover {
 .activityList li {
     display: block;
     float: left;
+    margin: 0px;
+    border-right: 1px solid black;
 }
 
 .activity-pics img {
-    width: 25vw;
+    width: 24.85vw;
     box-sizing: border-box;
-    height: 18vw;
     opacity: 0.7;
     transform: scale(1.3);
     transition: .6s;
-
-
 }
 
 .activity-pics {
@@ -422,7 +421,8 @@ textarea{
 footer{
     text-align: center;
     background-color: #444;
-    padding: 40px
+    padding: 40px;
+    width: 100vw;
 }
 ul li{
     display: inline-block;
